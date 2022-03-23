@@ -1,0 +1,119 @@
+*, *::after, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  background: #000;
+}
+body .bg-spline {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  background: transparent;
+  font-size: 0.8rem;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #fff;
+  color: #000;
+}
+
+header {
+  background: transparent;
+  padding: 30px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  padding: 20px;
+}
+header nav .border {
+  border-right: 2px solid #fff;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul .galaxy-logo {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  margin-right: 20px;
+}
+header nav ul li {
+  font-size: 0.8rem;
+  color: #fff;
+  list-style-type: none;
+  padding: 0 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+header nav ul li:hover {
+  background: linear-gradient(90deg, #7f81d9 0%, #00d4ff 26%, #ff882f 57%, #a2f686 87%);
+  background-position: right;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+header nav ul img {
+  cursor: pointer;
+  margin: 0 20px;
+  height: 30px;
+}
+
+.hero {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 8vw;
+  font-weight: bolder;
+}
+.hero h1 span {
+  background: linear-gradient(90deg, #7f81d9 0%, #00d4ff 26%, #ff882f 57%, #a2f686 87%);
+  background-position: right;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.hero p {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.hero p:nth-child(1) {
+  margin-top: 40px;
+}
+.hero .hero-buttons {
+  margin-top: 30px;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
